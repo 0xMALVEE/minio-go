@@ -212,6 +212,7 @@ func extractObjMetadata(header http.Header) http.Header {
 		"X-Amz-Tagging-Count",
 		"X-Amz-Meta-",
 		"X-Minio-Meta-",
+		"X-Minio-Replication-",
 		// Add new headers to be preserved.
 		// if you add new headers here, please extend
 		// PutObjectOptions{} to preserve them
